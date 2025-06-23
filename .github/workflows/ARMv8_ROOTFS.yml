@@ -174,6 +174,7 @@ jobs:
         cp Packages.tar.gz $GITHUB_WORKSPACE/openwrt/bin/targets/*/*
         cd $GITHUB_WORKSPACE/openwrt/bin/targets/*/*
         rm -rf packages
+        rm -rf u-boot-qemu_armv8
         echo "FIRMWARE=$PWD" >> $GITHUB_ENV
         echo "status=success" >> ${GITHUB_OUTPUT}
 
