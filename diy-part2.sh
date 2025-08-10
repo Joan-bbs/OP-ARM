@@ -46,17 +46,17 @@ git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git feeds/luci/
 sed -i '41,59d' feeds/luci/themes/luci-theme-argon/luasrc/view/themes/argon/footer.htm
 
 # 微信推送
-rm -rf feeds/kenzo/luci-app-wechatpush
-rm -rf feeds/luci/applications/luci-app-serverchan
-git clone -b openwrt-18.06 https://github.com/tty228/luci-app-serverchan.git feeds/luci/applications/luci-app-serverchan
+#rm -rf feeds/kenzo/luci-app-wechatpush
+#rm -rf feeds/luci/applications/luci-app-serverchan
+#git clone -b openwrt-18.06 https://github.com/tty228/luci-app-serverchan.git feeds/luci/applications/luci-app-serverchan
 
 # luci-app-adguardhome
-rm -rf feeds/kenzo/luci-app-adguardhome
-git clone https://github.com/Zane-E/luci-app-adguardhome.git feeds/kenzo/luci-app-adguardhome
+#rm -rf feeds/kenzo/luci-app-adguardhome
+#git clone https://github.com/Zane-E/luci-app-adguardhome.git feeds/kenzo/luci-app-adguardhome
 
 # filebrowser
-rm -rf feeds/kenzo/luci-app-filebrowser
-merge_package https://github.com/Lienol/openwrt-package openwrt-package/luci-app-filebrowser
+#rm -rf feeds/kenzo/luci-app-filebrowser
+#merge_package https://github.com/Lienol/openwrt-package openwrt-package/luci-app-filebrowser
 
 # mosdns
 rm -rf feeds/kenzo/luci-app-mosdns
